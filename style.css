@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Inconsolata'), url('https://fonts.cdnfonts.com/s/15605/Inconsolata-Regular.woff') format('woff');
+}
+
+body {
+    margin: 0 100px;
+    font-family: Inconsolata;
+}
+
+p {
+    font-size: 48pt;
+}
+
+.container {
+    max-height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.panel {
+    scroll-snap-align: start;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
