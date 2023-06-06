@@ -8,10 +8,7 @@
 body {
     margin: 0 100px;
     font-family: Inconsolata;
-}
-
-p {
-    font-size: 48pt;
+    font-size: 24pt;
 }
 
 .container {
@@ -25,4 +22,9 @@ p {
     height: 100vh;
     display: flex;
     align-items: center;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
 }
