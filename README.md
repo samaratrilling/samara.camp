@@ -1,2 +1,2 @@
-# 30.ben.community
-I'm turning 30
+# samara.camp
+I'm turning 30 (in November, but we're celebrating early.)
